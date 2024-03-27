@@ -6,3 +6,6 @@ domain_name     = "animehub.tulna07.site"
 alb_domain_name = "app.tulna07.site"
 github_org           = "tulna07"
 github_repo          = "workshop-1-web-app"
+
+# Disable in production
+s3_bucket_force_destroy = true

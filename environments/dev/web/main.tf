@@ -13,6 +13,8 @@ module "web" {
   github_org  = var.github_org
   github_repo = var.github_repo
 
+  s3_bucket_force_destroy = var.s3_bucket_force_destroy
+
   # Enable for production
-  #   enable_bucket_versioning = true
+  # enable_bucket_versioning = true
 }

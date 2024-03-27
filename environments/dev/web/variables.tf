@@ -33,3 +33,9 @@ variable "github_repo" {
   description = "The GitHub repository that the GitHub Actions role trusts"
   type        = string
 }
+
+variable "s3_bucket_force_destroy" {
+  description = "If true, remove all items in the bucket and then remove the bucket"
+  type        = bool
+  default     = false
+}

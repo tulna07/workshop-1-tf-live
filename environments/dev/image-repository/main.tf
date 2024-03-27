@@ -3,4 +3,6 @@ module "image_repository" {
 
   environment  = var.environment
   project_name = var.project_name
+
+  force_delete = var.force_delete
 }
